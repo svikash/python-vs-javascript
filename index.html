@@ -756,14 +756,14 @@ for item in some_list:
         </div>
       </div>
       <div class="fl w-100 w-50-l pa2 mb3">
-        <h4 class="f5 mt0 mb2 normal"><strong>JavaScript (ES2015)</strong> / <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"><code>forEach</code></a></h4>
+        <h4 class="f5 mt0 mb2 normal"><strong>JavaScript (ES2015)</strong> / <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of"><code>forEach</code></a></h4>
         <div class="overflow-auto ba bw2 b--white br4">
           <pre><code class="language-javascript">const someList = [6, 3, 5]
 
 // 6
 // 3
 // 5
-someList.forEach(element => {
+for(let element of someList) {
   console.log(element)
 })
 </code></pre>
